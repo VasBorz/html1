@@ -1,0 +1,31 @@
+
+h1{
+    font-size: 60px;
+    margin:0;
+}
+.wrapper{
+    width: 1280px;
+    margin: auto;
+}
+
+.product_layout{
+    height: 323px;
+    background-color: #445162;
+    color: #fff;
+    padding: 50px;
+}
+.product_info{
+    float: left;
+}
+.product_info_list{
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    line-height: 36px;
+}
+li::before{
+    content: url("/images/check_icon.png");
+}
+.product_img{
+float:right;
+}
