@@ -1,18 +1,23 @@
-
+body{
+    font-size: 16px;
+}
 h1{
     font-size: 60px;
     margin:0;
+}
+h2{
+    font-size: 30px;
+    color: #445161;
 }
 .wrapper{
     width: 1280px;
     margin: auto;
 }
-
 .product_layout{
     height: 323px;
     background-color: #445162;
     color: #fff;
-    padding: 50px;
+    padding: 40px 50px 50px 50px;
 }
 .product_info{
     float: left;
@@ -23,9 +28,21 @@ h1{
     font-size: 20px;
     line-height: 36px;
 }
-li::before{
-    content: url("/images/check_icon.png");
+.product_info_list li::before{
+    content: url("../images/check_icon.png");
+    padding-right: 10px;
 }
 .product_img{
-float:right;
+    float:right;
+    padding-top: 10px;
+}
+.about_product_main{
+    padding: 50px;
+}
+.about_product{
+    width: 653px;
+    float: left;
+}
+.about_product_img{
+    float: right;
 }
