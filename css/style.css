@@ -131,3 +131,12 @@ ul{
 .review_info span{
     color: #989898;
 }
+.pricing_table{
+    border: 2px solid #445162;
+    width: 300px;
+    background-color: #445162;
+    color: #fff;
+}
+.pricing_table button{
+
+}

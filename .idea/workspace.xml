@@ -75,11 +75,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576665641428</updated>
-      <workItem from="1576665644832" duration="10533000" />
+      <workItem from="1576665644832" duration="11789000" />
+      <workItem from="1576693212942" duration="296000" />
+      <workItem from="1576743782032" duration="264000" />
+      <workItem from="1576750845958" duration="95000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1712" y="448" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576693193116">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1712" y="448" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1576693193116" />
+    <state x="1655" y="467" key="com.intellij.ide.util.TipDialog" timestamp="1576750848325">
+      <screen x="0" y="23" width="2560" height="1300" />
+    </state>
+    <state x="1655" y="467" key="com.intellij.ide.util.TipDialog/0.23.2560.1300@0.23.2560.1300" timestamp="1576750848325" />
   </component>
 </project>
