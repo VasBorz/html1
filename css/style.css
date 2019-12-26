@@ -13,6 +13,7 @@ h2{
 ul{
     list-style: none;
     display: inline-block;
+    margin: 0;
 }
 .clear-fix{
     content: "";
@@ -131,12 +132,133 @@ ul{
 .review_info span{
     color: #989898;
 }
+.pricing{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 50px;
+}
 .pricing_table{
     border: 2px solid #445162;
     width: 300px;
     background-color: #445162;
     color: #fff;
+    float: left;
+    margin-right: 50px;
+    border-radius: 5px;
 }
-.pricing_table button{
+.pricing_table h3{
+    font-size: 24px;
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+.pricing_table .price{
+    text-align: center;
+    display: block;
+    font-size: 40px;
+    color: #445162;
+    background-color: white;
+    padding: 10px 0 10px 0;
+}
 
+.pricing_table ul{
+  padding-left: 0;
+    margin: 20px;
+}
+.pricing_table ul li{
+    line-height: 28px;
+}
+
+.pricing_table button{
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto 15px auto;
+    width: 260px;
+    background-color: #ffffff;
+    color: #445161;
+    font-size: 18px;
+    height: 40px;
+    border-radius: 5px;
+}
+.Contacts{
+    text-align: center;
+    height: unset;
+}
+.centered_h3{
+    color: #fff;
+    text-align: center;
+}
+.contact_form{
+    width: 40%;
+    display: inline-block;
+}
+.contact_form input, .contact_form textarea{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    display: inline-block;
+}
+.contact_form input{
+    height: 40px;
+}
+.contact_form input::placeholder{
+    color: #445162;
+    font-size: 16px;
+}
+.contact_form textarea::placeholder{
+    color: #445162;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.contact_form button{
+    width: 140px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #445162;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.pricing_table button:hover, .contact_form button:hover{
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+.contact_information{
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+.contact_information li{
+    padding-bottom: 15px;
+}
+.contact_information li img{
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.sprite{
+    height: 42px;
+    width: 44px;
+    display: inline-block;
+    margin: 20px 12px 0 0;
+}
+.sprite01{
+     background: url("../images/social_buttons.png");
+ }
+.sprite02{
+    background: url("../images/social_buttons.png") 44px;
+}
+.sprite03{
+    background: url("../images/social_buttons.png") 92px;
+}
+.sprite04{
+    background: url("../images/social_buttons.png") 142px;
+}
+.sprite05{
+    background: url("../images/social_buttons.png") 190px;
+}
+.copyright{
+    height: 11px;
+    color: #445162;
+    font-size: 12px;
+    text-align: center;
 }
