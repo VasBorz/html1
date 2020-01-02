@@ -29,10 +29,14 @@ ul{
     padding-bottom: 10px;
 }
 .product_layout{
-    height: 323px;
     background-color: #445162;
     color: #fff;
     padding: 40px 50px 50px 50px;
+}
+.product_layout:after{
+    content: '';
+    clear: both;
+    display: block;
 }
 .product_info{
     float: left;
@@ -65,16 +69,19 @@ ul{
     padding: 20px 30px 20px 30px;
 }
 .product_pluses ul li{
-    width: 526px;
+    width: calc(50% - 8px);
     float: left;
-    padding: 0 20px 30px 0;
-    display: flex;
+    background: url(../images/2-layers.png) no-repeat left 5px;
+    padding-left: 50px;
+    text-align: justify;
+    box-sizing: border-box;
+    margin-bottom: 30px;
 }
-.product_pluses ul li::before{
-    content: url(../images/2-layers.png);
-    display: block;
-    float: left;
-    padding: 0 20px 0 0;
+.product_pluses ul li:nth-child(odd){
+     margin-right: 8px;
+ }
+.product_pluses ul li:nth-child(even){
+    margin-left: 8px;
 }
 .screenshots{
     padding: 20px 30px 20px 30px;
@@ -113,18 +120,20 @@ ul{
     display: inline-block;
     padding: 20px;
     border-radius: 5px;
-}
-.arrow-left{
-    display: inline-block;
     position: relative;
-    top: -45px;
-    left: 5px;
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right:10px solid #ebebeb;
 }
+
+.review_info::before{
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 50px;
+    height: 20px;
+    width: 20px;
+    background-color: #ebebeb;
+    transform: rotate(135deg);
+}
+
 .review_info p{
     margin: 0;
     padding-bottom: 10px;
@@ -231,10 +240,12 @@ ul{
 .contact_information li{
     padding-bottom: 15px;
 }
+
 .contact_information li img{
     padding-right: 10px;
     padding-top: 5px;
 }
+
 .sprite{
     height: 42px;
     width: 44px;
