@@ -23,6 +23,7 @@ ul{
     background-color: #445162;
     color: #fff;
     padding: 40px 50px 50px 50px;
+    position: relative;
 }
 .product_layout:after{
     content: '';
@@ -88,6 +89,7 @@ ul{
     float: left;
     padding: 30px 30px 30px 0;
 }
+
 .screenshots_item h3{
     font-size: 24px;
     color: #445161;
@@ -110,6 +112,7 @@ ul{
     padding: 20px;
     border-radius: 5px;
     position: relative;
+    box-shadow: 2px 2px 20px 2px #00000030;
 }
 
 .review_info::before{
@@ -149,7 +152,7 @@ ul{
     background-color: #445162;
     color: #fff;
     border-radius: 5px;
-    margin-right: 15px;
+    margin: 0 15px 0 15px;
 }
 .pricing_table h3{
     font-size: 24px;
@@ -192,7 +195,7 @@ ul{
 }
 .Contacts{
     text-align: center;
-    height: unset;
+    position: relative;
 }
 .centered_h3{
     color: #fff;
@@ -200,6 +203,9 @@ ul{
 }
 .contact_form{
     display: inline-block;
+}
+.contact_form textarea,input{
+    color: #444;
 }
 .contact_form input, .contact_form textarea{
     width: 100%;
@@ -269,6 +275,15 @@ ul{
 }
 .sprite05{
     background: url("../images/social_buttons.png") 190px;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    position: absolute;
+    left: 0;
+    top:0;
 }
 .copyright{
     height: 11px;

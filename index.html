@@ -10,6 +10,7 @@
 <body>
     <div class="container">
         <div class="product_layout row">
+            <video src="videos/240p.mp4" muted autoplay loop></video>
             <div class="product_info col-md-6">
                 <h1>Product name</h1>
                 <ul class="product_info_list">
@@ -157,11 +158,16 @@
                 </div>
         </div>
         <div class="Contacts product_layout row">
-            <h2 class="centered_h3">Contacts</h2>
+            <video src="videos/240p.mp4" muted autoplay loop></video>
+            <div class="col-md-12">
+                <h2 class="centered_h3">Contacts</h2>
+            </div>
             <div class="contact_form col-md-6">
                 <form action="?" method="POST">
                     <input type="text" placeholder="Your name:"><br>
-                    <input type="text" placeholder="Your email:"><br>
+                    <input type="email" placeholder="Your email:" autofocus><br>
+                    <input type="date">
+                    <input type="text" placeholder="Country code:" pattern="[A-Za-z]{3}"><br>
                     <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea><br>
                     <button>Send</button>
                 </form>
