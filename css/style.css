@@ -15,15 +15,6 @@ ul{
     display: inline-block;
     margin: 0;
 }
-.clear-fix{
-    content: "";
-    clear: both;
-    display: table;
-}
-.wrapper{
-    width: 1280px;
-    margin: auto;
-}
 .centered_h2{
     text-align: center;
     padding-bottom: 10px;
@@ -38,9 +29,6 @@ ul{
     clear: both;
     display: block;
 }
-.product_info{
-    float: left;
-}
 .product_info_list{
     padding: 0;
     font-size: 20px;
@@ -51,23 +39,17 @@ ul{
     padding-right: 10px;
 }
 .product_img{
-    float:right;
     padding-top: 10px;
 }
 .about_product_main{
     padding: 50px;
 }
-.about_product{
-    width: 653px;
-    float: left;
-}
-.about_product_img{
-    float: right;
-}
+
 .product_pluses{
     background-color: #f5f5f5;
     padding: 20px 30px 20px 30px;
 }
+
 .product_pluses ul li{
     width: calc(50% - 8px);
     float: left;
@@ -78,21 +60,29 @@ ul{
     margin-bottom: 30px;
 }
 .product_pluses ul li:nth-child(odd){
-     margin-right: 8px;
- }
+    margin-right: 8px;
+}
 .product_pluses ul li:nth-child(even){
     margin-left: 8px;
 }
+
+/* Medium devices (desktops, 992px and up) */
+@media all and (min-width: 0px) and (max-width: 992px) {
+    .product_pluses ul li,
+    .product_pluses ul li:nth-child(odd),
+    .product_pluses ul li:nth-child(even){
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
 .screenshots{
     padding: 20px 30px 20px 30px;
 }
 .screenshots h2{
     padding-bottom: 0;
 
-}
-.screenshots_item, .review_item{
-    width: 574px;
-    display: inline-block;
 }
 .screenshots_item img{
     float: left;
@@ -111,8 +101,8 @@ ul{
     margin: 0 30px 30px 0;
 }
 .review_item img{
-    /*float: left;*/
-    padding: 0 10px 20px 0;
+    float: left;
+    padding: 0 15px 20px 0;
 }
 .review_info{
     background-color: #ebebeb;
@@ -127,7 +117,7 @@ ul{
     content: '';
     position: absolute;
     left: -10px;
-    top: 50px;
+    top: 25px;
     height: 20px;
     width: 20px;
     background-color: #ebebeb;
@@ -240,7 +230,9 @@ ul{
 .contact_information li{
     padding-bottom: 15px;
 }
+@media all and (max-width: 980px) and (min-width: 0px){
 
+}
 .contact_information li img{
     padding-right: 10px;
     padding-top: 5px;
