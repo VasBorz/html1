@@ -97,8 +97,8 @@ ul{
     padding: 20px 30px 20px 30px;
 }
 .review_item{
-    width: 574px;
-    margin: 0 30px 30px 0;
+    margin-bottom: 30px;
+    float: left;
 }
 .review_item img{
     float: left;
@@ -106,7 +106,6 @@ ul{
 }
 .review_info{
     background-color: #ebebeb;
-    width: 420px;
     display: inline-block;
     padding: 20px;
     border-radius: 5px;
@@ -123,6 +122,15 @@ ul{
     background-color: #ebebeb;
     transform: rotate(135deg);
 }
+@media all and (min-width: 0px) and (max-width: 992px){
+    .review_info::before{
+        left: calc(50% - 10px);
+        top: -10px;
+    }
+    .review_item img{
+        margin-left: calc(50% - 35px);
+    }
+}
 
 .review_info p{
     margin: 0;
@@ -138,12 +146,10 @@ ul{
 }
 .pricing_table{
     border: 2px solid #445162;
-    width: 300px;
     background-color: #445162;
     color: #fff;
-    float: left;
-    margin-right: 50px;
     border-radius: 5px;
+    margin-right: 15px;
 }
 .pricing_table h3{
     font-size: 24px;
@@ -171,12 +177,18 @@ ul{
     text-transform: uppercase;
     display: block;
     margin: 0 auto 15px auto;
-    width: 260px;
+    width: calc(100% - 20px);
     background-color: #ffffff;
     color: #445161;
     font-size: 18px;
     height: 40px;
     border-radius: 5px;
+}
+@media all and (min-width: 0px) and (max-width: 992px){
+    .pricing_table,
+    .contact_form{
+        margin-bottom: 30px;
+    }
 }
 .Contacts{
     text-align: center;
@@ -187,7 +199,6 @@ ul{
     text-align: center;
 }
 .contact_form{
-    width: 40%;
     display: inline-block;
 }
 .contact_form input, .contact_form textarea{
