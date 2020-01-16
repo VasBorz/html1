@@ -146,12 +146,22 @@ ul{
     width: 100%;
     margin-bottom: 50px;
 }
+.flex_elements{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
 .pricing_table{
     border: 2px solid #445162;
     background-color: #445162;
     color: #fff;
     border-radius: 5px;
     margin: 0 15px 0 15px;
+    transition: 300ms;
+}
+.pricing_table:hover{
+    box-shadow: 0px 0px 20px 4px #888;
+    margin-bottom: 10px;
 }
 .pricing_table h3{
     font-size: 24px;
@@ -259,7 +269,12 @@ ul{
     width: 44px;
     display: inline-block;
     margin: 20px 12px 0 0;
+    transition: 300ms;
 }
+.sprite:hover{
+    transform: rotate(360deg);
+}
+
 .sprite01{
      background: url("../images/social_buttons.png");
  }

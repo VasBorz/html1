@@ -51,11 +51,11 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/videos" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/videos" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -87,6 +87,8 @@
       <workItem from="1576854899471" duration="942000" />
       <workItem from="1577352504057" duration="7215000" />
       <workItem from="1577958831022" duration="12731000" />
+      <workItem from="1578064584416" duration="1396000" />
+      <workItem from="1579166281326" duration="172000" />
     </task>
     <servers />
   </component>
@@ -102,9 +104,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1214" y="271" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1578047474574" />
-    <state x="1655" y="467" key="com.intellij.ide.util.TipDialog" timestamp="1576750848325">
+    <state x="1655" y="467" key="com.intellij.ide.util.TipDialog" timestamp="1578064585237">
       <screen x="0" y="23" width="2560" height="1300" />
     </state>
-    <state x="1655" y="467" key="com.intellij.ide.util.TipDialog/0.23.2560.1300@0.23.2560.1300" timestamp="1576750848325" />
+    <state x="1655" y="467" key="com.intellij.ide.util.TipDialog/0.23.2560.1300@0.23.2560.1300" timestamp="1578064585237" />
   </component>
 </project>
